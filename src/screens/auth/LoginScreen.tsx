@@ -14,7 +14,7 @@ const LoginScreen = ({navigation}: LoginScreenProp) => {
         rowGap: 20,
         backgroundColor: 'white',
       }}>
-      <AuthLayout welcomeText="Enter your email and password to continue.">
+      <AuthLayout>
         <LoginForm navigation={navigation} />
       </AuthLayout>
     </SafeAreaView>

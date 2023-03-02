@@ -78,13 +78,15 @@ const ClothViewItem = ({
                 style={{
                   fontSize: 16,
                   textAlign: 'center',
-                  color: 'white',
+                  color: item === title ? 'black' : 'white',
                   zIndex: 10,
-                  backgroundColor: item === title ? 'red' : 'black',
+                  backgroundColor: item === title ? 'white' : 'black',
                   paddingHorizontal: 10,
                   paddingVertical: 3,
                   borderRadius: 20,
                   textTransform: 'capitalize',
+                  borderColor: 'black',
+                  borderWidth: 1,
                 }}>
                 {item}
               </Text>
